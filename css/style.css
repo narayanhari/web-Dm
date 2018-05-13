@@ -10,7 +10,7 @@ body{
 h1,h2,h4{
     font-family: 'PT Sans Narrow',sans-serif;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: bold;
 }
 p{
     font-size: 15;
@@ -36,6 +36,21 @@ p{
 .navbar a:hover{
     opacity: 1;
     background-color: #111111!important;
+}
+.navbarbottom{
+    background-color: #303030 !important;
+    font-weight: 700;
+    font-size: 15px;
+}
+.social{
+    font-size: 25px;
+}
+.navbarbottom a {
+        opacity: .8;
+}
+.navbarbottom a:hover{
+    opacity: 1;
+    background-color: #ffffff!important;
 }
 .header{
     height: 600px;
@@ -91,12 +106,12 @@ font-size: 20px;
 }
 p.intro{
 font-size: 14px; 
-    text-align: center;
+    text-align: justify;
     letter-spacing: 1px;
 }
 h1{
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 33px;
 }
 }
