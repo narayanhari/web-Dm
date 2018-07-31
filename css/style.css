@@ -1,0 +1,141 @@
+body{
+    font-family: 'Open Sans',sans-serif;
+    background-color: #f5f5f5;
+    
+}
+h1,h2,h4{
+    font-family: 'PT Sans Narrow',sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+p{
+    font-size: 15;
+    line-height: 21px;
+    
+}
+.btn{
+    font-weight: 400;
+}
+.btn:hover{
+    border: 1px solid #fff !important;
+}
+
+.navbar{
+    background-color: #303030 !important;
+    font-family: 'PT Sans Narrow',sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+.navbar a {
+    color: #f2f2f2!important;
+    opacity: .8;
+}
+.navbar a:hover{
+    opacity: 1;
+    background-color: #111111!important;
+}
+
+.navbarbottom{
+    background-color: #303030 !important;
+    font-weight: 700;
+    font-size: 15px;
+}
+.social{
+    font-size: 25px;
+}
+.navbarbottom a {
+        opacity: .8;
+}
+.navbarbottom a:hover{
+    opacity: 1;
+    background-color: #ffffff!important;
+}
+.header{
+    height: 50%;
+    width: 100%;
+    padding: 70px 0 0px;
+    margin-top: 50px;
+    margin-bottom: 0px !important; 
+    background-color: #f5f5f5;
+    text-align: center;
+    
+    
+}
+.header img{
+     border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    
+    
+}
+.navbarbottom{
+    background-color: #f0f0f0 !important;
+}
+.row1{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0px;
+}
+p.intro{
+font-size: 20px; 
+    text-align: center;
+    letter-spacing: 1px;
+    
+}
+
+/*
+ 
+Skills
+
+*/
+.skills {
+    padding: 30px 0 50px ;
+    text-align: center ! important;
+    background-color:;
+}
+.skill-head{
+      margin-bottom: 3%;
+    font-size: 40px;
+}
+
+.icon{
+  height: 80px !important ; 
+    width : !important;  
+}
+
+
+@media(max-width:600px) {
+    .header{
+    height: 50%;
+    width: 100%;
+    padding: 70px 0 80px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    background-color: #f5f5f5;
+    text-align: center;
+    
+    
+}
+.header img{
+     border-radius: 50%;
+    height: 175px;
+    width: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+p.intro{
+font-size: 14px; 
+    text-align: justify;
+    letter-spacing: 1px;
+}
+h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 27px;
+}
+}
