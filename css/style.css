@@ -1,6 +1,6 @@
 body{
     font-family: 'Open Sans',sans-serif;
-    background-color: #f5f5f5;
+    background-color:#f5f5f5 ;
     
 }
 h1,h2,h4{
@@ -56,8 +56,9 @@ p{
     padding: 70px 0 0px;
     margin-top: 50px;
     margin-bottom: 0px !important; 
-    background-color: #f5f5f5;
+    background: linear-gradient(to bottom right, #dedce8, #f9f9f9,#1111);
     text-align: center;
+    border-radius: 30px;
     
     
 }
@@ -94,19 +95,68 @@ Skills
 .skills {
     padding: 30px 0 50px ;
     text-align: center ! important;
-    background-color:;
+    background-color: #f4f6f9;
+    border-radius: 25px;
 }
 .skill-head{
       margin-bottom: 3%;
     font-size: 40px;
 }
-
+.skills{
+    background: linear-gradient(to bottom right,#1111 , #f9f9f9,#dedce8);
+}
+.skill-icon{
+    background: linear-gradient(to bottom right, #1111, #f9f9f9,#1111);
+    padding: 10px 0 ;
+    border-radius: 30px 50px;
+}
 .icon{
   height: 80px !important ; 
     width : !important;  
 }
+/*
+Experiences
+*/
+.exp{
+    padding: 0px 0px 50px !important;
+    text-align: center !important;
+    background: linear-gradient(to bottom right, #1111, #2222);
+    border-radius: 10px; 
+    margin-bottom: 5%;
+    
+}
+.exp p{
+    padding-bottom: 10px;
+}
 
+.exp .place{
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f5f7f9;
+    border-radius: 15px 50px;
 
+}
+.place li
+{
+    display: block;
+    padding: 5px;
+    font-size: 17px;
+    text-align: left;
+}
+.place h5{
+    font-size: 18px;
+}
+.place h4
+{
+    color: #4c4c4c;
+    font-weight: 600;
+}
+.place h3{
+    font-size: 28px; 
+    font-weight: 600;
+    text-decoration: underline;
+    color: #111111;
+}
 @media(max-width:600px) {
     .header{
     height: 50%;
