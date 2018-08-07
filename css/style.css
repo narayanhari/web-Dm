@@ -53,7 +53,7 @@ p{
 .header{
     height: 50%;
     width: 100%;
-    padding: 70px 0 0px;
+    padding: 70px 0 4%;
     margin-top: 50px;
     margin-bottom: 0px !important; 
     background: linear-gradient(to bottom right, #dedce8, #f9f9f9,#1111);
@@ -101,7 +101,9 @@ Skills
 .skill-head{
       margin-bottom: 3%;
     font-size: 40px;
+    font-family: courier;
 }
+
 .skills{
     background: linear-gradient(to bottom right,#1111 , #f9f9f9,#dedce8);
 }
@@ -114,14 +116,16 @@ Skills
   height: 80px !important ; 
     width : !important;  
 }
+
+
 /*
 Experiences
 */
 .exp{
-    padding: 0px 0px 50px !important;
+    padding: 2% 0px 50px !important;
     text-align: center !important;
-    background: linear-gradient(to bottom right, #1111, #2222);
-    border-radius: 10px; 
+    background: linear-gradient(to bottom right, #1111,#f2f2f2, #dedce8);
+    border-radius: 25px; 
     margin-bottom: 0%;
     
 }
@@ -142,20 +146,30 @@ Experiences
     padding: 5px;
     font-size: 17px;
     text-align: left;
+    color: #00111e;
 }
 .place h5{
     font-size: 18px;
 }
 .place h4
 {
-    color: #4c4c4c;
+    color: #202123;
     font-weight: 600;
+    font-size: 25px;
+    font-family: Trebuchet MS;
 }
+.place .at{
+    font-size: 25px;
+    font-family: Courier New;
+    
+}
+
 .place h3{
-    font-size: 28px; 
+    font-size:35px; 
     font-weight: 600;
     text-decoration: underline;
-    color: #111111;
+    color: #001111;
+    font-family: Comic Sans MS;
 }
 
 /*
@@ -173,6 +187,7 @@ contact us
        background: linear-gradient(to bottom right, #dedce8, #f9f9f9,#1111);
     border-radius: 30px;
     
+    
 }
 .cont{
         background: linear-gradient(to bottom right, #1111, #f9f9f9,#1111);
@@ -180,12 +195,24 @@ contact us
     border-radius: 30px 50px;
     
 }
-.fa{
-    font-size: 27px;
+.cont .fa{
+    font-size: 30px;
+    
+}
+.cont .fa-2x{
+    letter-spacing: 15px; 
+    color: #5c5d60;
+}
+.cont .fa-2x:hover{
+    color: #110011;
+    font-size: 38px;
+}
+.cont a{
+    text-decoration: none;
 }
 .contact h4{
-    font-size: 25px;
-    text-decoration: underline;
+    font-size: 35px;
+    font-family: courier
 }
 @media(max-width:600px) {
     .header{
